@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+<style>
+        body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.admin-panel {
+  display: flex;
+  height: 100vh;
+}
+
+.side-bar {
+  background-color: #f4f4f4;
+  width: 200px;
+}
+
+.side-bar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-bar ul li {
+  padding: 10px;
+}
+
+.side-bar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.side-bar ul li a:hover {
+  background-color: #ddd;
+}
